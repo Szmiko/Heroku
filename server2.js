@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
 mongoose.Promise = global.Promise;
-mongoose.connect('mongo ds259410.mlab.com:59410/kodilla -u <Szmiko> -p <DOheroku8*>', {});
+mongoose.connect('mongodb://localhost/nodeappdatabase', {});
 
 //new user Schema
 const userSchema = new Schema({
